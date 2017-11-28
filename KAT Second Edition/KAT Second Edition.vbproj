@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7511348-876F-4056-8C91-450AEEBDE1DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>KAT_Second_Edition.My.MyApplication</StartupObject>
+    <RootNamespace>KAT_Second_Edition</RootNamespace>
+    <AssemblyName>KAT Second Edition</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>KAT Second Edition.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>KAT Second Edition.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AndroidCtrl">
+      <HintPath>libs\AndroidCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="AndroidCtrlUI">
+      <HintPath>libs\AndroidCtrlUI.dll</HintPath>
+    </Reference>
+    <Reference Include="AndroidLib">
+      <HintPath>libs\AndroidLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\KAT NEW\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="mfastboot">
+      <HintPath>libs\mfastboot.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="vlib">
+      <HintPath>libs\vlib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info1.Designer.vb">
+      <DependentUpon>Info1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="MssgBox1.Designer.vb">
+      <DependentUpon>MssgBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MssgBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MssgBox2.Designer.vb">
+      <DependentUpon>MssgBox2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MssgBox2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MssgBox3.Designer.vb">
+      <DependentUpon>MssgBox3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MssgBox3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MssgBox4.Designer.vb">
+      <DependentUpon>MssgBox4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MssgBox4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mssgbox5.Designer.vb">
+      <DependentUpon>Mssgbox5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mssgbox5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mssgbox6.Designer.vb">
+      <DependentUpon>Mssgbox6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mssgbox6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info1.resx">
+      <DependentUpon>Info1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MssgBox1.resx">
+      <DependentUpon>MssgBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MssgBox2.resx">
+      <DependentUpon>MssgBox2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MssgBox3.resx">
+      <DependentUpon>MssgBox3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MssgBox4.resx">
+      <DependentUpon>MssgBox4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mssgbox5.resx">
+      <DependentUpon>Mssgbox5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mssgbox6.resx">
+      <DependentUpon>Mssgbox6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\_device.log" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\patch.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\7z.exe" />
+    <Content Include="bin\Debug\adb.exe" />
+    <Content Include="bin\Debug\fastboot.exe" />
+    <Content Include="bin\Debug\Prop-Tweaker.exe" />
+    <None Include="bin\Release\Prop-Tweaker.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Android Browser.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

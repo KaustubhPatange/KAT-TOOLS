@@ -1,0 +1,28 @@
+C:\Users\Kaustubh\AppData\Local\Temporary Projects\KAT Second Edition\bin\Debug\KAT Second Edition.exe.config
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\KAT Second Edition.exe.config
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Form1.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Resources.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT Second Edition.vbproj.GenerateResource.Cache
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\KAT Second Edition.exe
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\KAT Second Edition.pdb
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\KAT Second Edition.xml
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\MaterialSkin.dll
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT Second Edition.exe
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT Second Edition.xml
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT Second Edition.pdb
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\AndroidCtrl.dll
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\AndroidCtrlUI.dll
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\mfastboot.dll
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\mfastboot.pdb
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\mfastboot.xml
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Form2.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.MssgBox1.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.MssgBox2.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.MssgBox3.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Form3.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT Second Edition.vbprojResolveAssemblyReference.cache
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\bin\Debug\MetroFramework.dll
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.MssgBox4.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Mssgbox5.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Mssgbox6.resources
+C:\Users\Kaustubh\Documents\Visual Studio 2010\Projects\KAT Second Edition\KAT Second Edition\obj\Debug\KAT_Second_Edition.Info1.resources
